@@ -1,0 +1,12 @@
+Execution Time:
+call and apply immediately execute the function.
+bind creates a new function that is executed separately.
+
+Argument Passing:
+call and apply accept arguments as a list (or an array-like object).
+bind accepts arguments during the binding process 
+and returns a new function with those arguments fixed.
+
+Immediate vs. Delayed Execution:
+call and apply immediately invoke the function with the provided context and arguments.
+bind creates a new function that can be invoked later with the specified context and arguments.

@@ -1,0 +1,6 @@
+//Memoization is a technique for speeding up applications by caching the results of expensive function calls and returning them when the same inputs are used again.
+//expensive function call is one that consumes large amounts of these two resources: time and memory
+//same as useMemo(react specific)
+//caching used
+Use concept of closure
+We create a higher-order function memoize that takes a function func as an argument and returns a new function.

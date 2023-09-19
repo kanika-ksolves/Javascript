@@ -1,0 +1,6 @@
+Use debounce when you want to delay execution until after a period of inactivity 
+following an event to save resources 
+and provide a better user experience in scenarios with rapid events.
+
+Use throttling when you want to limit the rate of execution to ensure a more consistent 
+and controlled behavior in situations where the event occurs frequently.
